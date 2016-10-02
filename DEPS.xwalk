@@ -17,7 +17,7 @@
 # Edit these when rolling DEPS.xwalk.
 # -----------------------------------
 
-chromium_crosswalk_rev = '7e0c6957238b21de4b1a1a47b2ede4960f08a639'
+chromium_crosswalk_rev = '461f28cc5b7d84eeb578d1a85356cb613f362bec'
 v8_crosswalk_rev = 'edf5696a198dc08fd3647910baf62ec71b6133a5'
 
 # We need our own copy of src/buildtools in order to have the gn and
@@ -28,7 +28,7 @@ v8_crosswalk_rev = 'edf5696a198dc08fd3647910baf62ec71b6133a5'
 buildtools_rev = '06e80a0e17319868d4a9b13f9bb6a248dc8d8b20'
 
 chromium_git = 'https://chromium.googlesource.com'
-crosswalk_git = 'https://github.com/crosswalk-project'
+crosswalk_git = 'https://github.com/DISEINC'
 
 # ------------------------------------------------------
 # gclient solutions.
