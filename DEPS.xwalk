@@ -28,7 +28,8 @@ v8_crosswalk_rev = 'edf5696a198dc08fd3647910baf62ec71b6133a5'
 buildtools_rev = '06e80a0e17319868d4a9b13f9bb6a248dc8d8b20'
 
 chromium_git = 'https://chromium.googlesource.com'
-crosswalk_git = 'https://github.com/DISEINC'
+DISEcrosswalk_git = 'https://github.com/DISEINC'
+crosswalk_git = 'https://github.com/crosswalk-project'
 
 # ------------------------------------------------------
 # gclient solutions.
@@ -37,12 +38,12 @@ crosswalk_git = 'https://github.com/DISEINC'
 
 solutions = [
   { 'name': 'src',
-    'url': crosswalk_git + '/chromium-crosswalk.git@' + chromium_crosswalk_rev,
+    'url': DISEcrosswalk_git + '/chromium-crosswalk.git@' + chromium_crosswalk_rev,
     'deps_file': '.DEPS.git',
     'managed': True,
     'custom_deps': {
       'src':
-        crosswalk_git + '/chromium-crosswalk.git@' + chromium_crosswalk_rev,
+        DISEcrosswalk_git + '/chromium-crosswalk.git@' + chromium_crosswalk_rev,
       'src/v8':
         crosswalk_git + '/v8-crosswalk.git@' + v8_crosswalk_rev,
 
